@@ -1,0 +1,14 @@
+{
+	"scope": "source.c, source.cpp, source.c++",
+	"completions":
+	[
+		{"trigger": "cerr\tiostream", "contents": "${1:std::}cerr"},
+		{"trigger": "cin\tiostream", "contents": "${1:std::}cin"},
+		{"trigger": "clog\tiostream", "contents": "${1:std::}clog"},
+		{"trigger": "cout\tiostream", "contents": "${1:std::}cout"},
+		{"trigger": "wcerr\tiostream", "contents": "${1:std::}wcerr"},
+		{"trigger": "wcin\tiostream", "contents": "${1:std::}wcin"},
+		{"trigger": "wclog\tiostream", "contents": "${1:std::}wclog"},
+		{"trigger": "wcout\tiostream", "contents": "${1:std::}wcout"},
+	]
+}

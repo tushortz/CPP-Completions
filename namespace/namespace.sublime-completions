@@ -1,0 +1,8 @@
+{
+	"scope": "source.c, source.cpp, source.c++",
+	"completions":
+	[
+		{"trigger": "using\tnamespace", "contents": "using namespace ${1:name};\n"},
+		
+	]
+}	
